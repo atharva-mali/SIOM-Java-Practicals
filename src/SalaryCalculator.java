@@ -36,12 +36,6 @@ public class SalaryCalculator {
         // Output
         System.out.println("Employee Number: " + empNo);
         System.out.println("Employee Name: " + empName);
-        System.out.println("Basic Salary: " + basicSalary);
-        System.out.println("DA: " + da);
-        System.out.println("HRA: " + hra);
-        System.out.println("CCA: " + CCA);
-        System.out.println("PF: " + pf);
-        System.out.println("PT: " + PT);
         System.out.println("Gross Salary: " + grossSalary);
         System.out.println("Net Salary: " + netSalary);
 

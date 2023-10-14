@@ -26,10 +26,10 @@ class Student extends Person {
     }
 }
 
-class Teacher extends Person {
+class Teacher1 extends Person {
     private String employeeId;
 
-    public Teacher(String name, int age, String employeeId) {
+    public Teacher1(String name, int age, String employeeId) {
         super(name, age);
         this.employeeId = employeeId;
     }
@@ -49,7 +49,7 @@ public class Program20 {
         student.introduce();
         student.study("Mathematics");
 
-        Teacher teacher = new Teacher("Mr. Smith", 40, "T9876");
+        Teacher1 teacher = new Teacher1("Mr. Smith", 40, "T9876");
         teacher.introduce();
         teacher.teach("History");
     }

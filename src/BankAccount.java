@@ -41,7 +41,7 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount account = new BankAccount("John Doe", "1234567890", "Savings", 1000.0);
+        BankAccount account = new BankAccount("Atharva Mali", "12345678", "Savings", 10000.0);
 
         account.display();
         account.deposit(500);
